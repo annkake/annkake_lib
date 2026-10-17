@@ -1,0 +1,9 @@
+# Local-only material must never be committed.
+/.local/
+# Generated release archives and manifests.
+/dist/
+# Python/compiler artifacts.
+__pycache__/
+*.py[cod]
+*.o
+*.out

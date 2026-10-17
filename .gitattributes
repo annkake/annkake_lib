@@ -1,0 +1,8 @@
+# Additional exclusions for git archive; tools/package.py uses an allowlist.
+/.local export-ignore
+/.local/** export-ignore
+/dist export-ignore
+/dist/** export-ignore
+**/__pycache__ export-ignore
+**/__pycache__/** export-ignore
+*.pyc export-ignore

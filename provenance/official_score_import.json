@@ -1,0 +1,65 @@
+{
+  "imported_on": "2026-10-17",
+  "source": "user supplied ahc_patch_v4",
+  "license": "not specified; excluded from repository CC0 dedication",
+  "files": [
+    {
+      "path": "CHAT_GUIDE.md",
+      "sha256": "b57a6f119914fc6298b5ff1a2d1242ad013c7b3ff53f8c00502755638e1c84b1"
+    },
+    {
+      "path": "README.md",
+      "sha256": "8fbbe5c06ac36d66fb889a263d5a2f65bcc6244c30de6c3d63bf5b653a943863"
+    },
+    {
+      "path": "examples/case_b_adapter.hpp",
+      "sha256": "745d7c45b4dff70c29122a22b9ad177aa1af45aea646394972adcd4c313e3f0d"
+    },
+    {
+      "path": "examples/main_case_b.cpp",
+      "sha256": "7392db92d29530f77e0bc194278fae4d03e84e0cbddf29ecf1cac6fae57163ff"
+    },
+    {
+      "path": "examples/translated_case_b.hpp",
+      "sha256": "1514fa91feba52f8bc52db22357cffeba36591f8fe1f040369d26dab83907236"
+    },
+    {
+      "path": "lib/official_bridge.hpp",
+      "sha256": "f2eca38c85a65d193e93da6c2573634e16a9f710d4cf47196132e9e740fd1015"
+    }
+  ],
+  "source_note": "Provided case B matches the input/scoring structure of the local AHC070 tools, not the user-provided AHC071 URL. Original release/license remain unverified.",
+  "destinations": [
+    "heuristic/official_bridge.hpp",
+    "examples/official_score/"
+  ],
+  "changes": [
+    "Connect to existing heuristic/core.hpp",
+    "Mark non-template translated header functions inline (no scoring arithmetic changes)",
+    "Validate candidates with translated official output parser",
+    "Generate a single-file submission and snippets"
+  ],
+  "candidate_source_url": "https://atcoder.jp/contests/ahc070/tasks/ahc070_a",
+  "source_mismatch": "Owner-supplied URL is AHC071; supplied case B uses N/M/targets, matching the local AHC070 tools. Local AHC071 tools use W/H/costs/holes.",
+  "local_source_comparison": {
+    "ahc070": {
+      "lib_rs_sha256": "1d56bd03da8ac22a4d44d4ae1aa1402367159326802d5946b966565a1b209f03",
+      "cargo_toml_sha256": "723b1e040999ddd3bf9f953ffd17a6985af57e4c20aca80872ddbe9cd19d5b16",
+      "license_note": "No LICENSE file or explicit license field found in inspected local tools."
+    },
+    "ahc071": {
+      "lib_rs_sha256": "fd91ae64ee1234217baddcb91bb204bd9f2a884ce5c6b7efd51931470024120b",
+      "cargo_toml_sha256": "7f49053a7630a450f19971f885f5e981aca994f605ae1bb5a0a1c61d8fd41867",
+      "license_note": "No LICENSE file or explicit license field found in inspected local tools."
+    }
+  },
+  "provided_task_url": "https://atcoder.jp/contests/ahc071/tasks/ahc071_a",
+  "official_tools_url": null,
+  "rust_comparison": {
+    "tool": "local AHC070 tools/target/release/vis",
+    "binary_sha256": "384b6c8552bc7692588c9e37bacb201cfb06c2f07c3a96dcc1378b2263cb87ec",
+    "cases": 30,
+    "valid_and_invalid_outputs": true,
+    "result": "all scores matched"
+  }
+}

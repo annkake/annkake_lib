@@ -1,0 +1,238 @@
+[
+  {
+    "old_path": "DP/digitDP",
+    "sha256": "416ab836041f89153f7cc0f0250811f1fdf02d25686f8ab7a2a2f4208b00416c",
+    "source_urls": [],
+    "new_path": "dp/digit_dp.hpp",
+    "status": "replaced",
+    "description": "元の三遷移構成を保つ汎用桁DPと桁和集計の具体例。"
+  },
+  {
+    "old_path": "DataStructure/segtree",
+    "sha256": "2501c10f2d310a11376dc7c0716c9652a93fa676f653988e849b6e75b7092346",
+    "source_urls": [],
+    "new_path": "data_structure/segtree.hpp",
+    "status": "replaced",
+    "description": "一点更新・区間最小値の反復型セグメント木。"
+  },
+  {
+    "old_path": "Graph/BFS",
+    "sha256": "3171924bc21f9e850ba2c8e2f484a8a30a957f5b7a484c7f17d62da7e28fd6c2",
+    "source_urls": [],
+    "new_path": "graph/bfs.hpp",
+    "status": "replaced",
+    "description": "無重みグラフの単一始点最短距離。"
+  },
+  {
+    "old_path": "Graph/BIT",
+    "sha256": "6a5c3d5b59b0c3325900955d771980395676c841b9fea494c784c16776e87f31",
+    "source_urls": [],
+    "new_path": "data_structure/bit.hpp",
+    "status": "replaced",
+    "description": "0始まりのFenwick木による加算と区間和。"
+  },
+  {
+    "old_path": "Graph/DFS",
+    "sha256": "db9c08f710be101e6aaf7947212be6ed02a725569b7e20335e6c90897e3b6582",
+    "source_urls": [],
+    "new_path": "graph/dfs.hpp",
+    "status": "replaced",
+    "description": "明示的なスタックによる深さ優先探索。"
+  },
+  {
+    "old_path": "Graph/Dijkstra",
+    "sha256": "2db4c0ad60f0348ccb3f35e63892fd308ee619f81522c3afdd9683016ef10a90",
+    "source_urls": [],
+    "new_path": "graph/dijkstra.hpp",
+    "status": "replaced",
+    "description": "非負重みグラフのDijkstra法。"
+  },
+  {
+    "old_path": "Graph/LCA",
+    "sha256": "4d1818941e21d4751d919c3431e6381522e727a5014b0c4e0b40e69ea2ef8862",
+    "source_urls": [],
+    "new_path": "graph/lca.hpp",
+    "status": "replaced",
+    "description": "二分持ち上げによる木の最近共通祖先。"
+  },
+  {
+    "old_path": "Graph/SCC",
+    "sha256": "5b3059465ae07abe902e8d728463ebcbda66a05320c55802bb05e7eac3d45934",
+    "source_urls": [],
+    "new_path": "graph/scc.hpp",
+    "status": "replaced",
+    "description": "反復DFSによる強連結成分分解と縮約DAG。"
+  },
+  {
+    "old_path": "Graph/UnionFind",
+    "sha256": "af6cd43d361bb1d7142c241d5aa7d85ffa0c49e88f4840242663fcee969f2803",
+    "source_urls": [],
+    "new_path": "graph/dsu.hpp",
+    "status": "replaced",
+    "description": "small-to-largeの成分頂点リストを備えたDSU。"
+  },
+  {
+    "old_path": "Graph/Warshall",
+    "sha256": "8e3692044717907e972c675e7343f847053992ebc0ed6934078b978339166fc0",
+    "source_urls": [
+      "https://qiita.com/okaryo/items/8e6cd73f8a676b7a5d75"
+    ],
+    "new_path": "graph/floyd.hpp",
+    "status": "replaced",
+    "description": "Floyd法による全点対最短距離。"
+  },
+  {
+    "old_path": "Math/Ceil",
+    "sha256": "4dbe34b776dab9d2cd4c6e75a57c1f8875dde89a68e65902a3d9999b2f98458d",
+    "source_urls": [],
+    "new_path": "math/div_ceil.hpp",
+    "status": "replaced",
+    "description": "符号付き整数除算の切り上げ。"
+  },
+  {
+    "old_path": "Math/Comv",
+    "sha256": "e80b1af9779325631d621a156d3508a2e0dd8ed4367544f685f20dd866d18e30",
+    "source_urls": [
+      "https://drken1215.hatenablog.com/entry/2018/06/08/210000"
+    ],
+    "new_path": "math/comb.hpp",
+    "status": "replaced",
+    "description": "階乗テーブルによる二項係数の剰余計算。"
+  },
+  {
+    "old_path": "Math/F2_Gauss_Jordan",
+    "sha256": "3105c8f2f8cc4318d9f1230cc0839e82b0274f9b907c59d3d9ea86a819d2c473",
+    "source_urls": [],
+    "new_path": "math/gf2.hpp",
+    "status": "replaced",
+    "description": "GF(2)上の連立一次方程式と行列ランク。"
+  },
+  {
+    "old_path": "Math/Floor",
+    "sha256": "7aa8d288ed3a0844bc860330f7891eb236cc7993c6c119885939d3c4483d19bc",
+    "source_urls": [],
+    "new_path": "math/div_floor.hpp",
+    "status": "replaced",
+    "description": "符号付き整数除算の切り下げ。"
+  },
+  {
+    "old_path": "Math/GCD",
+    "sha256": "3b08a3fdf57b6204aa24979ae366e5ac7c0fe0892740c78d923d5d8abb65f509",
+    "source_urls": [],
+    "new_path": "math/gcd.hpp",
+    "status": "replaced",
+    "description": "非負の最大公約数。"
+  },
+  {
+    "old_path": "Math/MatrixPow",
+    "sha256": "3a467f98b4b312f98b98316bd2a5862f4ef74357d982e27902976386c987f4dc",
+    "source_urls": [],
+    "new_path": "math/mat_pow.hpp",
+    "status": "replaced",
+    "description": "正方行列の剰余べき乗。"
+  },
+  {
+    "old_path": "Math/PFD",
+    "sha256": "c8e4cd801f32f2c728e5da0459c794b3e777f1a822e21fb0f69606ef2f3dec38",
+    "source_urls": [],
+    "new_path": "math/factor.hpp",
+    "status": "replaced",
+    "description": "試し割りによる素因数分解。"
+  },
+  {
+    "old_path": "Math/exGCD",
+    "sha256": "11fa19003ba7d5322d3803eb80d3d4b8a5e37038a7117115bb18f2af43a96829",
+    "source_urls": [],
+    "new_path": "math/ext_gcd.hpp",
+    "status": "replaced",
+    "description": "拡張Euclid法によるBezout係数。"
+  },
+  {
+    "old_path": "Math/fast_PFD",
+    "sha256": "7dc3e79544549eb6e1ca5d87841ddf0f5617e76f77110ca71acd915ff45c1caa",
+    "source_urls": [
+      "https://qiita.com/drken/items/3beb679e54266f20ab63"
+    ],
+    "new_path": "math/sieve.hpp",
+    "status": "replaced",
+    "description": "最小素因数表による繰り返し素因数分解。"
+  },
+  {
+    "old_path": "Math/isPrime",
+    "sha256": "22ebabddfd6b25726464aa22bedbb01459bbdae129b8dfc0516c532d46090883",
+    "source_urls": [
+      "https://qiita.com/drken/items/3beb679e54266f20ab63"
+    ],
+    "new_path": "math/prime_sieve.hpp",
+    "status": "replaced",
+    "description": "エラトステネスの篩による素数判定表。"
+  },
+  {
+    "old_path": "Math/modint",
+    "sha256": "7eedc51ae7ca1fecd6e6569478d4b7c7e4928f0997b3f43720917f560c4f1cd8",
+    "source_urls": [],
+    "new_path": "math/modint.hpp",
+    "status": "replaced",
+    "description": "コンパイル時に法を指定する剰余整数型。"
+  },
+  {
+    "old_path": "Math/modinv",
+    "sha256": "81e108c86280897dc24bd204d6aad3344afc9955b75d4507be22ab8252324f73",
+    "source_urls": [],
+    "new_path": "math/mod_inv.hpp",
+    "status": "replaced",
+    "description": "拡張Euclid法による剰余逆元。"
+  },
+  {
+    "old_path": "Math/modpow",
+    "sha256": "8fd0fe6098539439e09fc8b41a7ed60aff633f9ce7bedd6fb2b65ad5066d7f40",
+    "source_urls": [],
+    "new_path": "math/mod_pow.hpp",
+    "status": "replaced",
+    "description": "二分累乗による剰余べき乗。"
+  },
+  {
+    "old_path": "Math/yakusuu",
+    "sha256": "4df47e5e5b0866c82d90c612178cba7f2fbebed785a9a7710d1fc36a97668335",
+    "source_urls": [],
+    "new_path": "math/divisors.hpp",
+    "status": "replaced",
+    "description": "正の約数の昇順列挙。"
+  },
+  {
+    "old_path": "String/Hash",
+    "sha256": "1c969765159f6384e92b92e4420d48a1bed4f57e3d73040b07d4688d5bcffe19",
+    "source_urls": [
+      "https://atcoder.jp/contests/abc287/submissions/73642738"
+    ],
+    "new_path": "string/rolling_hash.hpp",
+    "status": "replaced",
+    "description": "2つの法を使う文字列のローリングハッシュ。"
+  },
+  {
+    "old_path": "String/Trie",
+    "sha256": "0715c2e495e6788440bee0ce2ab7515c5b6f08c6150be8175e9474a979eeeeb6",
+    "source_urls": [
+      "https://atcoder.jp/contests/abc287/submissions/73648581"
+    ],
+    "new_path": "string/trie.hpp",
+    "status": "replaced",
+    "description": "小文字英字のTrieと共有接頭辞長の検索。"
+  },
+  {
+    "old_path": "Technic/Compress",
+    "sha256": "570d46443675d7bcc94784ad0d7c9486ac59a5c73d2cde8df22775d4ce208c77",
+    "source_urls": [],
+    "new_path": "technique/compress.hpp",
+    "status": "replaced",
+    "description": "任意の比較可能な値の座標圧縮。"
+  },
+  {
+    "old_path": "Technic/RunLength",
+    "sha256": "409ced2b7a68d46dbbaed375ce94cfa85fec7820252c37fc9d588899c3548fd3",
+    "source_urls": [],
+    "new_path": "technique/rle.hpp",
+    "status": "replaced",
+    "description": "文字列のランレングス符号化と復元。"
+  }
+]

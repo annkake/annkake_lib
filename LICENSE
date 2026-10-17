@@ -1,0 +1,28 @@
+SPDX-License-Identifier: CC0-1.0
+
+CC0 1.0 Universal
+
+To the extent possible under law, the contributor has waived all copyright
+and related or neighboring rights to the replacement implementations marked
+SPDX-License-Identifier: CC0-1.0 under algo/.
+
+The complete CC0 1.0 Universal legal code is included in
+LICENSES/CC0-1.0.txt and governs this dedication:
+https://creativecommons.org/publicdomain/zero/1.0/legalcode
+
+Scope: the replacement .hpp files listed in provenance/algo_originals.json
+(new_path relative to algo/), the new euler_tour.hpp, doubling.hpp,
+lazy_segtree.hpp and calc_next.hpp implementations, modifications to those
+implementations, and newly authored algorithm documentation.
+
+algo/dp/lis.hpp contains a CC0-1.0 implementation by Ryo Suzuki (Reputeless).
+Its original dedication is preserved; see docs/licensing.md for sources.
+This dedication applies only to rights the contributor is entitled to waive.
+It does not relicense third-party material or establish rights in old copies.
+
+Excluded: examples/cheats/, examples/official_score/, templates/, heuristic/, .local/, old source
+versions, reference material, external articles/submissions and third-party
+libraries, including AtCoder Library. Their placement in the distribution
+does not extend this dedication to them. Generated snippets retain the
+licensing scope of their source files.
+See docs/licensing.md for provenance, limitations and unresolved history.

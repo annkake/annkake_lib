@@ -1,0 +1,9 @@
+{
+  "path": "algo/string/calc_next.hpp",
+  "old_sha256": "12c6baaa024667d37888551da4b72b93985adb82777cf32254603952123e44a2",
+  "old_source": "unknown",
+  "status": "rewritten",
+  "date": "2026-10-17",
+  "implementation": "Forward filling by occurrence intervals; old reverse-copy implementation removed.",
+  "old_path": "ALGO/String/calc_next.hpp"
+}
