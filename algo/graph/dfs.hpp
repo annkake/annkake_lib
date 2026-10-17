@@ -1,3 +1,4 @@
+// 参照URL: https://github.com/annkake/annkake_lib
 /**
  * @file dfs.hpp
  * @brief 明示的なスタックによる深さ優先探索。

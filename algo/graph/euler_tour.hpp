@@ -1,3 +1,4 @@
+// 参照URL: https://github.com/annkake/annkake_lib
 /**
  * @file euler_tour.hpp
  * @brief 木のDFS訪問順・オイラー巡回順と部分木の半開区間。

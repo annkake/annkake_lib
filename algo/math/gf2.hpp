@@ -1,3 +1,4 @@
+// 参照URL: https://github.com/annkake/annkake_lib
 /**
  * @file gf2.hpp
  * @brief GF(2)上の連立一次方程式と行列ランク。

@@ -1,3 +1,4 @@
+// 参照URL: https://github.com/annkake/annkake_lib
 /**
  * @file lis.hpp
  * @brief 最長増加部分列のインデックスを復元する（狭義・広義を選択可能）。

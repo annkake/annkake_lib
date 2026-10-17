@@ -1,3 +1,4 @@
+// 参照URL: https://github.com/annkake/annkake_lib
 /**
  * @file dijkstra.hpp
  * @brief 非負重みグラフのDijkstra法。

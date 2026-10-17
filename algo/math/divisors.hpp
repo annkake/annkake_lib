@@ -1,3 +1,4 @@
+// 参照URL: https://github.com/annkake/annkake_lib
 /**
  * @file divisors.hpp
  * @brief 正の約数の昇順列挙。

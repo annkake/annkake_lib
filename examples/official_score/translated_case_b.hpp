@@ -1,3 +1,4 @@
+// 参照URL: https://github.com/annkake/annkake_lib
 // User-supplied translation of official scoring tools (case B).
 // Source supplied by owner: https://atcoder.jp/contests/ahc071/tasks/ahc071_a
 // Case B matches local AHC070 Rust tools on 30 valid/invalid test cases.

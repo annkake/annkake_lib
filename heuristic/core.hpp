@@ -1,3 +1,4 @@
+// 参照URL: https://github.com/annkake/annkake_lib
 #pragma once
 // AHC 共通ライブラリ v3（C++20）
 // 問題ごとの Input / State / Action / Output はこのファイルに書かない。
@@ -12,6 +13,7 @@ using namespace atcoder;
 #endif
 
 // BEGIN GENERATED COMMON
+// 参照URL: https://github.com/annkake/annkake_lib
 // 共通定義の原本: templates/common.hpp.in。変更後は tools/sync_templates.py を実行する。
 const int64_t MOD1 = 1000000007;
 const int64_t MOD2 = 998244353;

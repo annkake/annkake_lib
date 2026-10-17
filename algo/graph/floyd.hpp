@@ -1,3 +1,4 @@
+// 参照URL: https://github.com/annkake/annkake_lib
 /**
  * @file floyd.hpp
  * @brief Floyd法による全点対最短距離。

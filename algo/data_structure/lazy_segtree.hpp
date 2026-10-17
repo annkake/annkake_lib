@@ -1,3 +1,4 @@
+// 参照URL: https://github.com/annkake/annkake_lib
 /**
  * @file lazy_segtree.hpp
  * @brief 遅延評価セグメント木と加算/代入×和/最小値の4構成。

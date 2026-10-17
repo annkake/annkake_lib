@@ -1,3 +1,4 @@
+// 参照URL: https://github.com/annkake/annkake_lib
 /**
  * @file compress.hpp
  * @brief 任意の比較可能な値の座標圧縮。

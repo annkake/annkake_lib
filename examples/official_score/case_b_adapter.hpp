@@ -1,3 +1,4 @@
+// 参照URL: https://github.com/annkake/annkake_lib
 #pragma once
 #include "translated_case_b.hpp"
 #include "../../heuristic/official_bridge.hpp"

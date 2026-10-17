@@ -1,3 +1,4 @@
+// 参照URL: https://github.com/annkake/annkake_lib
 /**
  * @file rolling_hash.hpp
  * @brief 2つの法を使う文字列のローリングハッシュ。

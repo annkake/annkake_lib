@@ -1,3 +1,4 @@
+// 参照URL: https://github.com/annkake/annkake_lib
 /**
  * @file div_ceil.hpp
  * @brief 符号付き整数除算の切り上げ。

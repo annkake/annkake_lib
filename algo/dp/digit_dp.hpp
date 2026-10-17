@@ -1,3 +1,4 @@
+// 参照URL: https://github.com/annkake/annkake_lib
 /**
  * @file digit_dp.hpp
  * @brief dp[桁数][小さいことが確定したか] の構成を保つ桁DPテンプレート。

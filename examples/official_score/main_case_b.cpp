@@ -1,3 +1,4 @@
+// 参照URL: https://github.com/annkake/annkake_lib
 #include "case_b_adapter.hpp"
 using namespace std;
 enum class Strategy {Greedy,SA,TreeBeam,MonteCarlo,All};

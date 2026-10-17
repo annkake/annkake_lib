@@ -1,3 +1,4 @@
+// 参照URL: https://github.com/annkake/annkake_lib
 /**
  * @file gcd.hpp
  * @brief 非負の最大公約数。

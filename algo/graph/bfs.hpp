@@ -1,3 +1,4 @@
+// 参照URL: https://github.com/annkake/annkake_lib
 /**
  * @file bfs.hpp
  * @brief 無重みグラフの単一始点最短距離。

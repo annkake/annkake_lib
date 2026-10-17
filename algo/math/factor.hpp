@@ -1,3 +1,4 @@
+// 参照URL: https://github.com/annkake/annkake_lib
 /**
  * @file factor.hpp
  * @brief 試し割りによる素因数分解。

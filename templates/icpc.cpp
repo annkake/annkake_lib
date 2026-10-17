@@ -1,3 +1,4 @@
+// 参照URL: https://github.com/annkake/annkake_lib
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -89,6 +90,7 @@ public:
 /*========================================================================================*/
 
 // BEGIN GENERATED COMMON
+// 参照URL: https://github.com/annkake/annkake_lib
 // 共通定義の原本: templates/common.hpp.in。変更後は tools/sync_templates.py を実行する。
 const int64_t MOD1 = 1000000007;
 const int64_t MOD2 = 998244353;

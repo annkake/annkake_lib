@@ -1,3 +1,4 @@
+// 参照URL: https://github.com/annkake/annkake_lib
 /**
  * @file mat_pow.hpp
  * @brief 正方行列の剰余べき乗。

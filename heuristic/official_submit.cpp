@@ -1,6 +1,9 @@
 // BEGIN FILE examples/official_score/main_case_b.cpp
+// 参照URL: https://github.com/annkake/annkake_lib
 // BEGIN FILE examples/official_score/case_b_adapter.hpp
+// 参照URL: https://github.com/annkake/annkake_lib
 // BEGIN FILE examples/official_score/translated_case_b.hpp
+// 参照URL: https://github.com/annkake/annkake_lib
 // User-supplied translation of official scoring tools (case B).
 // Source supplied by owner: https://atcoder.jp/contests/ahc071/tasks/ahc071_a
 // Case B matches local AHC070 Rust tools on 30 valid/invalid test cases.
@@ -286,6 +289,7 @@ inline pair<i64, string> compute_score(
 } // namespace translated_b
 // END FILE examples/official_score/translated_case_b.hpp
 // BEGIN FILE heuristic/official_bridge.hpp
+// 参照URL: https://github.com/annkake/annkake_lib
 /**
  * @file official_bridge.hpp
  * @brief 公式評価の合法性とスコアを共通の最良解管理へ接続する。
@@ -305,6 +309,7 @@ inline pair<i64, string> compute_score(
  * @endcode
  */
 // BEGIN FILE heuristic/core.hpp
+// 参照URL: https://github.com/annkake/annkake_lib
 // AHC 共通ライブラリ v3（C++20）
 // 問題ごとの Input / State / Action / Output はこのファイルに書かない。
 #if __has_include(<atcoder/all>)
@@ -317,6 +322,7 @@ using namespace atcoder;
 #endif
 
 // BEGIN GENERATED COMMON
+// 参照URL: https://github.com/annkake/annkake_lib
 // 共通定義の原本: templates/common.hpp.in。変更後は tools/sync_templates.py を実行する。
 const int64_t MOD1 = 1000000007;
 const int64_t MOD2 = 998244353;

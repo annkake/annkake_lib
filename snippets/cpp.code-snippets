@@ -7,6 +7,7 @@
       "m"
     ],
     "body": [
+      "// 参照URL: https://github.com/annkake/annkake_lib",
       "#include <bits/stdc++.h>",
       "#include <atcoder/all>",
       "using namespace std;",
@@ -15,6 +16,7 @@
       "#define int long long",
       "",
       "// BEGIN GENERATED COMMON",
+      "// 参照URL: https://github.com/annkake/annkake_lib",
       "// 共通定義の原本: templates/common.hpp.in。変更後は tools/sync_templates.py を実行する。",
       "const int64_t MOD1 = 1000000007;",
       "const int64_t MOD2 = 998244353;",
@@ -318,6 +320,7 @@
       "ICPC"
     ],
     "body": [
+      "// 参照URL: https://github.com/annkake/annkake_lib",
       "#include <bits/stdc++.h>",
       "using namespace std;",
       "",
@@ -409,6 +412,7 @@
       "/*========================================================================================*/",
       "",
       "// BEGIN GENERATED COMMON",
+      "// 参照URL: https://github.com/annkake/annkake_lib",
       "// 共通定義の原本: templates/common.hpp.in。変更後は tools/sync_templates.py を実行する。",
       "const int64_t MOD1 = 1000000007;",
       "const int64_t MOD2 = 998244353;",
@@ -715,6 +719,7 @@
       "mahc"
     ],
     "body": [
+      "// 参照URL: https://github.com/annkake/annkake_lib",
       "// AHC 共通ライブラリ v3（C++20）",
       "// 問題ごとの Input / State / Action / Output はこのファイルに書かない。",
       "#include <bits/stdc++.h>",
@@ -728,6 +733,7 @@
       "#endif",
       "",
       "// BEGIN GENERATED COMMON",
+      "// 参照URL: https://github.com/annkake/annkake_lib",
       "// 共通定義の原本: templates/common.hpp.in。変更後は tools/sync_templates.py を実行する。",
       "const int64_t MOD1 = 1000000007;",
       "const int64_t MOD2 = 998244353;",
@@ -1643,6 +1649,7 @@
       "\\};",
       "\\} // namespace ahc",
       "",
+      "// 参照URL: https://github.com/annkake/annkake_lib",
       "// AHC用 単一ファイル版（このファイルでは下記ヘッダーを連結して提出できる）",
       "",
       "",
@@ -1911,8 +1918,11 @@
     "prefix": "ahc_official",
     "body": [
       "// BEGIN FILE examples/official_score/main_case_b.cpp",
+      "// 参照URL: https://github.com/annkake/annkake_lib",
       "// BEGIN FILE examples/official_score/case_b_adapter.hpp",
+      "// 参照URL: https://github.com/annkake/annkake_lib",
       "// BEGIN FILE examples/official_score/translated_case_b.hpp",
+      "// 参照URL: https://github.com/annkake/annkake_lib",
       "// User-supplied translation of official scoring tools (case B).",
       "// Source supplied by owner: https://atcoder.jp/contests/ahc071/tasks/ahc071_a",
       "// Case B matches local AHC070 Rust tools on 30 valid/invalid test cases.",
@@ -2198,6 +2208,7 @@
       "\\} // namespace translated_b",
       "// END FILE examples/official_score/translated_case_b.hpp",
       "// BEGIN FILE heuristic/official_bridge.hpp",
+      "// 参照URL: https://github.com/annkake/annkake_lib",
       "/**",
       " * @file official_bridge.hpp",
       " * @brief 公式評価の合法性とスコアを共通の最良解管理へ接続する。",
@@ -2217,6 +2228,7 @@
       " * @endcode",
       " */",
       "// BEGIN FILE heuristic/core.hpp",
+      "// 参照URL: https://github.com/annkake/annkake_lib",
       "// AHC 共通ライブラリ v3（C++20）",
       "// 問題ごとの Input / State / Action / Output はこのファイルに書かない。",
       "#if __has_include(<atcoder/all>)",
@@ -2229,6 +2241,7 @@
       "#endif",
       "",
       "// BEGIN GENERATED COMMON",
+      "// 参照URL: https://github.com/annkake/annkake_lib",
       "// 共通定義の原本: templates/common.hpp.in。変更後は tools/sync_templates.py を実行する。",
       "const int64_t MOD1 = 1000000007;",
       "const int64_t MOD2 = 998244353;",
@@ -3288,6 +3301,7 @@
     "scope": "cpp",
     "prefix": "bit",
     "body": [
+      "// 参照URL: https://github.com/annkake/annkake_lib",
       "/**",
       " * @file bit.hpp",
       " * @brief 0始まりのFenwick木による加算と区間和。",
@@ -3359,6 +3373,7 @@
     "scope": "cpp",
     "prefix": "lazy_segtree",
     "body": [
+      "// 参照URL: https://github.com/annkake/annkake_lib",
       "/**",
       " * @file lazy_segtree.hpp",
       " * @brief 遅延評価セグメント木と加算/代入×和/最小値の4構成。",
@@ -3543,6 +3558,7 @@
       "seg"
     ],
     "body": [
+      "// 参照URL: https://github.com/annkake/annkake_lib",
       "/**",
       " * @file segtree.hpp",
       " * @brief 一点更新・区間最小値の反復型セグメント木。",
@@ -3601,6 +3617,7 @@
       "digitDP"
     ],
     "body": [
+      "// 参照URL: https://github.com/annkake/annkake_lib",
       "/**",
       " * @file digit_dp.hpp",
       " * @brief dp[桁数][小さいことが確定したか] の構成を保つ桁DPテンプレート。",
@@ -3734,6 +3751,7 @@
     "scope": "cpp",
     "prefix": "lis",
     "body": [
+      "// 参照URL: https://github.com/annkake/annkake_lib",
       "/**",
       " * @file lis.hpp",
       " * @brief 最長増加部分列のインデックスを復元する（狭義・広義を選択可能）。",
@@ -3813,6 +3831,7 @@
     "scope": "cpp",
     "prefix": "bfs",
     "body": [
+      "// 参照URL: https://github.com/annkake/annkake_lib",
       "/**",
       " * @file bfs.hpp",
       " * @brief 無重みグラフの単一始点最短距離。",
@@ -3854,6 +3873,7 @@
     "scope": "cpp",
     "prefix": "dfs",
     "body": [
+      "// 参照URL: https://github.com/annkake/annkake_lib",
       "/**",
       " * @file dfs.hpp",
       " * @brief 明示的なスタックによる深さ優先探索。",
@@ -3887,6 +3907,7 @@
     "scope": "cpp",
     "prefix": "dijkstra",
     "body": [
+      "// 参照URL: https://github.com/annkake/annkake_lib",
       "/**",
       " * @file dijkstra.hpp",
       " * @brief 非負重みグラフのDijkstra法。",
@@ -3933,6 +3954,7 @@
     "scope": "cpp",
     "prefix": "doubling",
     "body": [
+      "// 参照URL: https://github.com/annkake/annkake_lib",
       "/**",
       " * @file doubling.hpp",
       " * @brief 各頂点からの一意な遷移を二分持ち上げで繰り返す。",
@@ -3981,6 +4003,7 @@
     "scope": "cpp",
     "prefix": "dsu",
     "body": [
+      "// 参照URL: https://github.com/annkake/annkake_lib",
       "/**",
       " * @file dsu.hpp",
       " * @brief 経路圧縮とサイズによる併合を使う素集合データ構造。",
@@ -4041,6 +4064,7 @@
     "scope": "cpp",
     "prefix": "euler_tour",
     "body": [
+      "// 参照URL: https://github.com/annkake/annkake_lib",
       "/**",
       " * @file euler_tour.hpp",
       " * @brief 木のDFS訪問順・オイラー巡回順と部分木の半開区間。",
@@ -4106,6 +4130,7 @@
       "warshall"
     ],
     "body": [
+      "// 参照URL: https://github.com/annkake/annkake_lib",
       "/**",
       " * @file floyd.hpp",
       " * @brief Floyd法による全点対最短距離。",
@@ -4152,6 +4177,7 @@
       "LCA"
     ],
     "body": [
+      "// 参照URL: https://github.com/annkake/annkake_lib",
       "/**",
       " * @file lca.hpp",
       " * @brief 二分持ち上げによる木の最近共通祖先。",
@@ -4213,6 +4239,7 @@
     "scope": "cpp",
     "prefix": "scc",
     "body": [
+      "// 参照URL: https://github.com/annkake/annkake_lib",
       "/**",
       " * @file scc.hpp",
       " * @brief 反復DFSによる強連結成分分解と縮約DAG。",
@@ -4288,6 +4315,7 @@
     ],
     "body": [
       "// 先に依存スニペットを各1回だけ展開: mod_pow",
+      "// 参照URL: https://github.com/annkake/annkake_lib",
       "/**",
       " * @file comb.hpp",
       " * @brief 階乗テーブルによる二項係数の剰余計算。",
@@ -4332,6 +4360,7 @@
       "ceil"
     ],
     "body": [
+      "// 参照URL: https://github.com/annkake/annkake_lib",
       "/**",
       " * @file div_ceil.hpp",
       " * @brief 符号付き整数除算の切り上げ。",
@@ -4363,6 +4392,7 @@
       "floor"
     ],
     "body": [
+      "// 参照URL: https://github.com/annkake/annkake_lib",
       "/**",
       " * @file div_floor.hpp",
       " * @brief 符号付き整数除算の切り下げ。",
@@ -4391,6 +4421,7 @@
     "scope": "cpp",
     "prefix": "divisors",
     "body": [
+      "// 参照URL: https://github.com/annkake/annkake_lib",
       "/**",
       " * @file divisors.hpp",
       " * @brief 正の約数の昇順列挙。",
@@ -4423,6 +4454,7 @@
       "extGCD"
     ],
     "body": [
+      "// 参照URL: https://github.com/annkake/annkake_lib",
       "/**",
       " * @file ext_gcd.hpp",
       " * @brief 拡張Euclid法によるBezout係数。",
@@ -4460,6 +4492,7 @@
       "PFD"
     ],
     "body": [
+      "// 参照URL: https://github.com/annkake/annkake_lib",
       "/**",
       " * @file factor.hpp",
       " * @brief 試し割りによる素因数分解。",
@@ -4494,6 +4527,7 @@
       "GCD"
     ],
     "body": [
+      "// 参照URL: https://github.com/annkake/annkake_lib",
       "/**",
       " * @file gcd.hpp",
       " * @brief 非負の最大公約数。",
@@ -4522,6 +4556,7 @@
     "scope": "cpp",
     "prefix": "gf2",
     "body": [
+      "// 参照URL: https://github.com/annkake/annkake_lib",
       "/**",
       " * @file gf2.hpp",
       " * @brief GF(2)上の連立一次方程式と行列ランク。",
@@ -4584,6 +4619,7 @@
       "matrixpow"
     ],
     "body": [
+      "// 参照URL: https://github.com/annkake/annkake_lib",
       "/**",
       " * @file mat_pow.hpp",
       " * @brief 正方行列の剰余べき乗。",
@@ -4629,6 +4665,7 @@
     "scope": "cpp",
     "prefix": "mod_inv",
     "body": [
+      "// 参照URL: https://github.com/annkake/annkake_lib",
       "/**",
       " * @file mod_inv.hpp",
       " * @brief 拡張Euclid法による剰余逆元。",
@@ -4666,6 +4703,7 @@
       "modpow"
     ],
     "body": [
+      "// 参照URL: https://github.com/annkake/annkake_lib",
       "/**",
       " * @file mod_pow.hpp",
       " * @brief 二分累乗による剰余べき乗。",
@@ -4699,6 +4737,7 @@
     "prefix": "modint",
     "body": [
       "// 先に依存スニペットを各1回だけ展開: mod_inv, mod_pow",
+      "// 参照URL: https://github.com/annkake/annkake_lib",
       "/**",
       " * @file modint.hpp",
       " * @brief コンパイル時に法を指定する剰余整数型。",
@@ -4759,6 +4798,7 @@
       "isprime"
     ],
     "body": [
+      "// 参照URL: https://github.com/annkake/annkake_lib",
       "/**",
       " * @file prime_sieve.hpp",
       " * @brief エラトステネスの篩による素数判定表。",
@@ -4794,6 +4834,7 @@
     "scope": "cpp",
     "prefix": "sieve",
     "body": [
+      "// 参照URL: https://github.com/annkake/annkake_lib",
       "/**",
       " * @file sieve.hpp",
       " * @brief 最小素因数表による繰り返し素因数分解。",
@@ -4860,6 +4901,7 @@
     "scope": "cpp",
     "prefix": "calc_next",
     "body": [
+      "// 参照URL: https://github.com/annkake/annkake_lib",
       "/**",
       " * @file calc_next.hpp",
       " * @brief 各位置以降で小文字英字が最初に出現する位置を前計算する。",
@@ -4909,6 +4951,7 @@
       "Hash"
     ],
     "body": [
+      "// 参照URL: https://github.com/annkake/annkake_lib",
       "/**",
       " * @file rolling_hash.hpp",
       " * @brief 2つの法を使う文字列のローリングハッシュ。",
@@ -4958,6 +5001,7 @@
       "Trie"
     ],
     "body": [
+      "// 参照URL: https://github.com/annkake/annkake_lib",
       "/**",
       " * @file trie.hpp",
       " * @brief 小文字英字のTrieと共有接頭辞長の検索。",
@@ -5028,6 +5072,7 @@
       "Compress"
     ],
     "body": [
+      "// 参照URL: https://github.com/annkake/annkake_lib",
       "/**",
       " * @file compress.hpp",
       " * @brief 任意の比較可能な値の座標圧縮。",
@@ -5066,6 +5111,7 @@
       "runlength"
     ],
     "body": [
+      "// 参照URL: https://github.com/annkake/annkake_lib",
       "/**",
       " * @file rle.hpp",
       " * @brief 文字列のランレングス符号化と復元。",
@@ -5104,6 +5150,7 @@
     "scope": "cpp",
     "prefix": "ahc_official_bridge",
     "body": [
+      "// 参照URL: https://github.com/annkake/annkake_lib",
       "/**",
       " * @file official_bridge.hpp",
       " * @brief 公式評価の合法性とスコアを共通の最良解管理へ接続する。",

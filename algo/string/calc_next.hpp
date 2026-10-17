@@ -1,3 +1,4 @@
+// 参照URL: https://github.com/annkake/annkake_lib
 /**
  * @file calc_next.hpp
  * @brief 各位置以降で小文字英字が最初に出現する位置を前計算する。

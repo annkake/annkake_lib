@@ -1,3 +1,4 @@
+// 参照URL: https://github.com/annkake/annkake_lib
 /**
  * @file mod_pow.hpp
  * @brief 二分累乗による剰余べき乗。

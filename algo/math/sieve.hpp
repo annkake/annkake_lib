@@ -1,3 +1,4 @@
+// 参照URL: https://github.com/annkake/annkake_lib
 /**
  * @file sieve.hpp
  * @brief 最小素因数表による繰り返し素因数分解。

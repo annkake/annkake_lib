@@ -1,3 +1,4 @@
+// 参照URL: https://github.com/annkake/annkake_lib
 /**
  * @file ext_gcd.hpp
  * @brief 拡張Euclid法によるBezout係数。

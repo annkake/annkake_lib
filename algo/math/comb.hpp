@@ -1,3 +1,4 @@
+// 参照URL: https://github.com/annkake/annkake_lib
 /**
  * @file comb.hpp
  * @brief 階乗テーブルによる二項係数の剰余計算。

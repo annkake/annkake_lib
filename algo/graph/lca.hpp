@@ -1,3 +1,4 @@
+// 参照URL: https://github.com/annkake/annkake_lib
 /**
  * @file lca.hpp
  * @brief 二分持ち上げによる木の最近共通祖先。

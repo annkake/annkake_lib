@@ -1,3 +1,4 @@
+// 参照URL: https://github.com/annkake/annkake_lib
 /**
  * @file scc.hpp
  * @brief 反復DFSによる強連結成分分解と縮約DAG。

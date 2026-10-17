@@ -1,3 +1,4 @@
+// 参照URL: https://github.com/annkake/annkake_lib
 /**
  * @file trie.hpp
  * @brief 小文字英字のTrieと共有接頭辞長の検索。

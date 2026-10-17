@@ -1,3 +1,4 @@
+// 参照URL: https://github.com/annkake/annkake_lib
 /**
  * @file bit.hpp
  * @brief 0始まりのFenwick木による加算と区間和。

@@ -1,3 +1,4 @@
+// 参照URL: https://github.com/annkake/annkake_lib
 /**
  * @file segtree.hpp
  * @brief 一点更新・区間最小値の反復型セグメント木。

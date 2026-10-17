@@ -1,3 +1,4 @@
+// 参照URL: https://github.com/annkake/annkake_lib
 // AHC用 単一ファイル版（このファイルでは下記ヘッダーを連結して提出できる）
 #include "core.hpp"
 

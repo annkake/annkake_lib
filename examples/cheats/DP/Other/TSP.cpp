@@ -1,3 +1,4 @@
+// 参照URL: https://github.com/annkake/annkake_lib
 #include <bits/stdc++.h>
 #define LOOP(n) for (int _i = 0; _i < (n); _i++)
 #define REP(i, n) for (int i = 0; i < (n); ++i)

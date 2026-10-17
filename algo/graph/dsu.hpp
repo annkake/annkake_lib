@@ -1,3 +1,4 @@
+// 参照URL: https://github.com/annkake/annkake_lib
 /**
  * @file dsu.hpp
  * @brief 経路圧縮とサイズによる併合を使う素集合データ構造。

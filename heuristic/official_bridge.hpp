@@ -1,3 +1,4 @@
+// 参照URL: https://github.com/annkake/annkake_lib
 /**
  * @file official_bridge.hpp
  * @brief 公式評価の合法性とスコアを共通の最良解管理へ接続する。

@@ -1,3 +1,4 @@
+// 参照URL: https://github.com/annkake/annkake_lib
 /**
  * @file prime_sieve.hpp
  * @brief エラトステネスの篩による素数判定表。

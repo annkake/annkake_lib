@@ -1,3 +1,4 @@
+// 参照URL: https://github.com/annkake/annkake_lib
 /**
  * @file rle.hpp
  * @brief 文字列のランレングス符号化と復元。

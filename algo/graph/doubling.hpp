@@ -1,3 +1,4 @@
+// 参照URL: https://github.com/annkake/annkake_lib
 /**
  * @file doubling.hpp
  * @brief 各頂点からの一意な遷移を二分持ち上げで繰り返す。

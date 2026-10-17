@@ -1,3 +1,4 @@
+// 参照URL: https://github.com/annkake/annkake_lib
 /**
  * @file mod_inv.hpp
  * @brief 拡張Euclid法による剰余逆元。

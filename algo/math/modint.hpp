@@ -1,3 +1,4 @@
+// 参照URL: https://github.com/annkake/annkake_lib
 /**
  * @file modint.hpp
  * @brief コンパイル時に法を指定する剰余整数型。

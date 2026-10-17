@@ -1,3 +1,4 @@
+// 参照URL: https://github.com/annkake/annkake_lib
 #include <iostream>
 #include <vector>
 #include <algorithm> // std::lower_bound(), std::upper_bound()
