@@ -5,8 +5,24 @@
 - `heuristic/submit.cpp`：**そのまま単一ファイルとしてコンパイルできる**提出用（共通ライブラリも内蔵）。
 - `heuristic/template.cpp`：開発用。`#include "core.hpp"` で分割管理。
 - `heuristic/core.hpp`：共通部品。別のAHC問題へコピーして再利用する。
+- `heuristic/rng.hpp`：乱数生成器だけを使う単独ヘッダー。スニペットprefixは `rng`（別名 `RNG`）。
 - `tests/heuristic_test.cpp`：各部品の単体テスト。
 - `tests/heuristic_bad_undo.cpp`：わざと壊した `undo` を検出できることを示すテスト（失敗が正常）。
+
+## 乱数生成器だけを使う
+
+```cpp
+#include "heuristic/rng.hpp"
+
+RNG rng;
+int index = rng.uniform_int(0, 10); // [0,10) の整数
+double p = rng.uniform01();       // [0,1)
+double positive = rng.uniform01_open(); // (0,1)
+```
+
+スニペットは `rng` で構造体をsolve/mainの外側へ挿入します。標準ヘッダーを読み込んだ後なら、`#define int long long` の後に展開・includeしても使えます。`uniform_int(lo,hi)` の上下限と戻り値も64bitになり、最小値から最大値付近までの範囲を扱えます（上端は含みません）。`lo >= hi` や符号なし版の上限0は例外になります。
+
+AHCテンプレートには同じ実装が `ahc::RNG` として内蔵されているため、そのまま利用できます。原本は `heuristic/rng.hpp` で、`tools/sync_templates.py` が内蔵版と提出版へ同期します。乱数の初期状態は固定なので、同じ操作列からは同じ乱数列が得られます。
 
 **注意：付属の問題は説明用の架空例題です。** N個からK個を選んで整数の総和を最大化します。実際のAHCでは `Input`、`Output`、`Action`、`Move`、`SAState`、`BeamState`、`greedy`、`official_score` と各探索の近傍・ロールアウトを置き換えてください。
 

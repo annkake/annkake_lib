@@ -2,6 +2,7 @@
 """共通定義を各テンプレートとAHC提出版へ展開する。--check は差分検査のみ。"""
 from pathlib import Path
 import argparse
+import re
 import sys
 
 sys.dont_write_bytecode = True
@@ -10,6 +11,8 @@ from make_submit import bundle
 ROOT = Path(__file__).resolve().parents[1]
 BEGIN = '// BEGIN GENERATED COMMON\n'
 END = '// END GENERATED COMMON\n'
+RNG_BEGIN = '// BEGIN GENERATED RNG\n'
+RNG_END = '// END GENERATED RNG\n'
 
 
 def render(template, kind):
@@ -36,6 +39,12 @@ def main():
         before, rest = path.read_text().split(BEGIN, 1)
         _, after = rest.split(END, 1)
         updates[path] = before + BEGIN + render(template, kind) + END + after
+    rng = (ROOT / 'heuristic/rng.hpp').read_text()
+    rng = re.sub(r'^\s*#(?:pragma once|include[^\n]*)\n', '', rng, flags=re.M)
+    path = ROOT / 'heuristic/core.hpp'
+    before, rest = updates[path].split(RNG_BEGIN, 1)
+    _, after = rest.split(RNG_END, 1)
+    updates[path] = before + RNG_BEGIN + rng + RNG_END + after
     core = updates[ROOT / 'heuristic/core.hpp'].replace('#pragma once\n', '', 1)
     example = (ROOT / 'heuristic/template.cpp').read_text().replace('#include "core.hpp"', '')
     updates[ROOT / 'heuristic/submit.cpp'] = core + '\n' + example

@@ -56,6 +56,7 @@ AtCoder用は `templates/atcoder.cpp`、ICPC用は `templates/icpc.cpp`、AHCの
 
 - テンプレート: `atcoder`（別名 `ma` / `m`）、`icpc`（`ICPC`）、`ahc`（`mahc`）。
 - 公式評価接続: `ahc_official`（全体例）、`ahc_official_bridge`（既存AHCテンプレートへの追加）。
+- 乱数生成器だけを使う場合: `rng`（別名 `RNG`）。`#define int long long` にも対応します。
 - ライブラリ: `dsu`、`digit_dp`、`calc_next` などファイル名と同じprefix。
 - 関数・クラス定義はsolve/mainの外側へ挿入します。全prefixの対応表は各テンプレート末尾にあります。
 - ライブラリ用スニペットは `#include` を含みません。テンプレートが読み込む `<bits/stdc++.h>` を利用します。テンプレートを使わない場合は、標準ヘッダーを先に読み込むか、必要な `.hpp` を直接includeしてください。元の `.hpp` には単独利用に必要なincludeを残しています。
@@ -72,6 +73,7 @@ python3 tools/sync_snippets.py --check
 python3 tests/test_algo.py
 python3 tests/test_snippets.py
 python3 tests/test_templates.py
+python3 tests/test_rng.py
 python3 tests/test_official_score.py
 python3 tests/test_package.py
 ```

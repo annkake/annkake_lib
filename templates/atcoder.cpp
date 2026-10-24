@@ -300,4 +300,5 @@ signed main()
 // compress (Compress)            : 任意の比較可能な値の座標圧縮。
 // rle (runlength)                : 文字列のランレングス符号化と復元。
 // ahc_official_bridge            : 公式スコアと最良解の接続（AHCテンプレート共通部が必要）
+// rng (RNG)                      : AHCの乱数生成器（単独版・intのlong long置換に対応）
 // END GENERATED SNIPPET INDEX
